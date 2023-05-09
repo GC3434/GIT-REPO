@@ -1,0 +1,73 @@
+<html>
+<head>
+  <title>REGISTRATION</title>
+
+  <style>
+  footer { 
+  padding: 10px;  
+  color: white;
+  }
+ div
+ {
+  border: 1px solid black;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 10px;
+  height: 610px;
+  width:30%;
+  background-color: lightgray;
+ }
+
+ body {
+  background-image: url('Log.jpg') ;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+ </style>
+ </head>
+ <head>	
+	<script type="text/javascript">
+  function registration()
+ {
+     
+	 alert("Registration successfull");
+     window.open("Galary.html");
+ }
+
+  </script>
+</head>
+  <header>
+  <p>Hotel KRISTEN</p>
+</header>
+ <body  background="Log.jpg" >
+ <form>
+ <marquee direction="left"> <h2> REGISTRATION DETAILS</h2></marquee>
+  <center> <font Color="black"><legand><h3><b>ENTER FOLLOWING DETAILS:</b><h3></legand></font>
+<div>
+ <font Color="red"> FULL NAME:-<input type="text"  name="name" value="" required><br><br>
+   ADDRESS :-<input type="text"  name="address" value="" required><br><br>
+    MOBILE:-<input type="text"  name="mobile" value="" required><br><br>
+    GENDER:-</font><input type="radio"  name="gender" value="">MALE
+                               <input type="radio"  name="gender" value="">FEMALE<br><br>
+ <font Color="red">   UESERNAME :-<input type="text"  name="username" value="" required><br><br>
+   PASSWORD :-<input type="password"  name="password" value="" required><br><br>
+   CONFORM PASSWORD :-<input type="password"  name="password1" value="" required><br><br>
+   E-MAIL :-<input type="text"  name="mail" value="" required><br><br>
+    RESERVE IN:- <input type="date" name="in" value="" placeholder="dd/mm/yy" required><br><br>
+    RESERVE OUT:-<input type="date" name="out" value="" placeholder="dd/mm/yy" required><br><br>
+    NO.OF ADULT:-<input type="text"  name="adult" value="" required><br><br>
+    NO.OF CHILDREN:-<input type="text"  name="children" value="" required><br><br></font>  
+   <input type="button" name="submit" value="submit" onclick="registration()">&nbsp;&nbsp;
+   <input type="reset" name="reset" value="reset">&nbsp;&nbsp;<br><br>
+   <a href="Home.html" style="background-color:yellow;"> BACK&nbsp;&nbsp;
+   <a href="Galary.html" style="background-color:white;">NEXT</a></center>
+  </div>
+  </form>
+    <footer>
+  <p>GC web world- 3443443434</p>
+</footer>
+ </body>
+</html>

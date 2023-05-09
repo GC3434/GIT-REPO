@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOG IN</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  function show()
+  {
+   var a=document.getElementById("u1").value;
+   var b=document.getElementById("p1").value;
+    if(a=="Kristen" && b=="Cristal")
+   {
+     window.alert("login succecfully");
+     window.open("Home.html");
+    }
+   else
+  {
+     window.alert("INCORRECT USERNAME AND PASSWORD");
+    }
+  }
+  </script> 
+</head>
+ <body background="Hotel1.JPG">
+<div class="container">
+<form name="form" action="post">
+ <center> <h1> WELCOME TO HOTEL <font Color="red"> KRISTEN</font></h1>
+USERNAME:-<input type="text" name="name" id="u1" value="" placeholder="Enter username" required><br><br>
+PASSWORD:-<input type="password" name="name" id="p1" value="" placeholder="Enter password" required><br><br>
+<input type="button"  value="LOG IN" onclick="show()"/>
+<input type="reset" name="reset" value="reset"/>
+</form>
+</div>
+ </body>
+</html>

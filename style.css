@@ -1,0 +1,43 @@
+/* Customize the background color of the navigation bar */
+.navbar {
+    background-color: #fff;
+  }
+  
+  /* Customize the color of the navigation links */
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+  
+  /* Style the active list group item */
+  .list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Center the content of the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Add some spacing to the top and bottom of the container */
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Style the heading */
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the paragraph */
+  p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  
